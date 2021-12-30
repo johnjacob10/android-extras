@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_TAGS := user
 LOCAL_MODULE := Magisk
 LOCAL_SRC_FILES := Magisk-v23.0.apk
 LOCAL_MODULE_CLASS := APPS
