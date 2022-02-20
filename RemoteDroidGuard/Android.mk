@@ -17,6 +17,6 @@ LOCAL_SRC_FILES := org.microg.gms.droidguard-0.1.2-3.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := releasekey
 LOCAL_REQUIRED_MODULES := privapp-permissions-org.microg.gms.droidguard.xml
 include $(BUILD_PREBUILT)
