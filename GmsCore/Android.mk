@@ -28,6 +28,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := releasekey
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
+LOCAL_USES_LIBRARIES := com.android.location.provider
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml sysconfig-com.google.android.gms.xml
 include $(BUILD_PREBUILT)
 
