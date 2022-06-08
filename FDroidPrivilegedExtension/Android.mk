@@ -13,7 +13,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := FDroidPrivilegedExtension
 LOCAL_PRODUCT_MODULE := true
-LOCAL_SRC_FILES := org.fdroid.fdroid.privileged_2120.apk
+LOCAL_SRC_FILES := org.fdroid.fdroid.privileged_2130.apk 
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
