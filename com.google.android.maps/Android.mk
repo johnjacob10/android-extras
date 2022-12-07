@@ -17,7 +17,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_SRC_FILES := com.google.android.maps.jar
 LOCAL_PACKAGE_NAME := com.google.android.maps.jar
 LOCAL_PROVIDES_USES_LIBRARY := com.google.android.maps.jar
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := releasekey
 LOCAL_REQUIRED_MODULES := com.google.android.maps.xml
 include $(BUILD_PREBUILT)
 
