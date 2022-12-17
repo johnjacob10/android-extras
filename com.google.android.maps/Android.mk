@@ -19,5 +19,6 @@ LOCAL_PACKAGE_NAME := com.google.android.maps.jar
 LOCAL_PROVIDES_USES_LIBRARY := com.google.android.maps
 LOCAL_CERTIFICATE := releasekey
 LOCAL_REQUIRED_MODULES := com.google.android.maps.xml
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
