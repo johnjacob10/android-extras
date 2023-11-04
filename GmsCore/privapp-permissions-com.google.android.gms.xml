@@ -55,5 +55,6 @@
         <permission name="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK"/>
         <permission name="android.permission.POST_NOTIFICATIONS"/>
         <permission name="com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+        <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
 </privapp-permissions>
 </permissions>
