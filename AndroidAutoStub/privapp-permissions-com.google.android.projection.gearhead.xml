@@ -18,5 +18,19 @@
         <permission name="android.permission.REQUEST_COMPANION_SELF_MANAGED"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"/>
+        <permission name="com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+        <permission name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"/>
+        <permission name="android.permission.ADD_ALWAYS_UNLOCKED_DISPLAY"/>
+        <permission name="android.permission.CREATE_VIRTUAL_DEVICE"/>
+        <permission name="android.permission.TOGGLE_AUTOMOTIVE_PROJECTION"/>
+        <permission name="android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION"/>
+        <permission name="android.permission.ADD_TRUSTED_DISPLAY"/>
+        <permission name="android.permission.ASSOCIATE_COMPANION_DEVICES"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+        <permission name="android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE"/>
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
     </privapp-permissions>
 </permissions>
