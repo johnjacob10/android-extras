@@ -44,5 +44,6 @@ LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_USES_LIBRARIES := com.android.location.provider
 LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy androidx.window.extensions androidx.window.sidecar
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml default-permissions-com.google.android.gms.xml sysconfig-com.google.android.gms.xml microg.xml
+LOCAL_DEX_PREOPT := nostripping
 include $(BUILD_PREBUILT)
 
