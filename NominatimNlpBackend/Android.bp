@@ -1,0 +1,9 @@
+android_app_import {
+
+    name: "NominatimNlpBackend",
+    product_specific: true,
+
+    certificate: "releasekey",
+    apk: "org.microg.nlp.backend.nominatim_20042.apk",
+
+}

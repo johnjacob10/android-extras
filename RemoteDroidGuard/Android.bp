@@ -1,0 +1,24 @@
+
+
+prebuilt_etc {
+    name: "privapp-permissions-org.microg.gms.droidguard.xml",
+    product_specific: true,
+
+    src: "privapp-permissions-org.microg.gms.droidguard.xml",
+    relative_install_path: "permissions",
+    product_specific: true,
+
+}
+
+android_app_import {
+
+    name: "RemoteDroidGuard",
+    product_specific: true,
+
+    privileged: true,
+
+    certificate: "releasekey",
+    required: ["privapp-permissions-org.microg.gms.droidguard.xml"],
+    apk: "org.microg.gms.droidguard-0.1.2-3.apk",
+
+}

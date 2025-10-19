@@ -1,0 +1,9 @@
+android_app_import {
+
+    name: "MozillaNlpBackend",
+    product_specific: true,
+
+    certificate: "releasekey",
+    apk: "IchnaeaNlpBackend.apk",
+
+}

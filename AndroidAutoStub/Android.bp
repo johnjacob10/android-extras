@@ -1,0 +1,30 @@
+
+
+prebuilt_etc {
+    name: "privapp-permissions-com.google.android.projection.gearhead.xml",
+
+    product_specific: true,
+
+    src: "privapp-permissions-com.google.android.projection.gearhead.xml",
+    relative_install_path: "permissions",
+    product_specific: true,
+
+}
+
+android_app_import {
+
+    name: "AndroidAutoStub",
+    product_specific: true,
+
+    privileged: true,
+
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+
+    required: ["privapp-permissions-com.google.android.projection.gearhead.xml"],
+    apk: "AndroidAutoStub.apk",
+    presigned: true,
+
+}
