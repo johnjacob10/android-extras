@@ -8,5 +8,4 @@ android_app_import {
     },
     apk: "com.google.android.gsf-9.apk",
     presigned: true,
-
 }

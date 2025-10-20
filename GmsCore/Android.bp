@@ -7,8 +7,6 @@ prebuilt_etc {
 
     src: "privapp-permissions-com.google.android.gms.xml",
     relative_install_path: "permissions",
-    product_specific: true,
-
 }
 
 prebuilt_etc {
@@ -18,8 +16,6 @@ prebuilt_etc {
 
     src: "default-permissions-com.google.android.gms.xml",
     relative_install_path: "default-permissions",
-    product_specific: true,
-
 }
 
 prebuilt_etc {
@@ -29,23 +25,21 @@ prebuilt_etc {
 
     src: "sysconfig-com.google.android.gms.xml",
     relative_install_path: "sysconfig",
-    product_specific: true,
-
 }
 
 prebuilt_etc {
     name: "microg.xml",
 
-    src: "microg.xml",
-    relative_install_path: "",
     product_specific: true,
 
+    src: "microg.xml",
+    relative_install_path: "",
 }
 
 android_app_import {
     name: "GmsCore",
-    product_specific: true,
 
+    product_specific: true,
     privileged: true,
 
     overrides: ["com.qualcomm.location"],
@@ -66,5 +60,4 @@ android_app_import {
     },
     apk: "GmsCore.apk",
     presigned: true,
-
 }
