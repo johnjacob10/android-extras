@@ -9,5 +9,5 @@ android_app_import {
     ],
     apk: "org.fdroid.fdroid_1023051.apk",
     presigned: true,
-
+    preprocessed: true,
 }

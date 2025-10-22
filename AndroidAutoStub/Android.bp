@@ -24,5 +24,5 @@ android_app_import {
     required: ["privapp-permissions-com.google.android.projection.gearhead.xml"],
     apk: "AndroidAutoStub.apk",
     presigned: true,
-
+    preprocessed: true,
 }
