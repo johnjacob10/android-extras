@@ -60,4 +60,5 @@ android_app_import {
     },
     apk: "GmsCore.apk",
     presigned: true,
+    preprocessed: true,
 }

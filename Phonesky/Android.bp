@@ -29,5 +29,5 @@ android_app_import {
     },
     apk: "Phonesky.apk",
     presigned: true,
-
+    preprocessed: true,
 }
