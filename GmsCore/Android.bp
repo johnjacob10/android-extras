@@ -49,15 +49,25 @@ android_app_import {
         "androidx.window.extensions",
         "androidx.window.sidecar",
     ],
+
     required: [
         "privapp-permissions-com.google.android.gms.xml",
         "default-permissions-com.google.android.gms.xml",
         "sysconfig-com.google.android.gms.xml",
         "microg.xml",
     ],
+
     dex_preopt: {
         enabled: false,
     },
+
+    prebuilt_apk: {
+        name: "GmsCore",
+        srcs: ["GmsCore.apk"],
+        override: true,
+        package_name: "com.google.android.gms",
+    },
+
     apk: "GmsCore.apk",
     presigned: true,
     preprocessed: true,
