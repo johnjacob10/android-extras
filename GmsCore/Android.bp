@@ -61,13 +61,6 @@ android_app_import {
         enabled: false,
     },
 
-    prebuilt_apk: {
-        name: "GmsCore",
-        srcs: ["GmsCore.apk"],
-        override: true,
-        package_name: "com.google.android.gms",
-    },
-
     apk: "GmsCore.apk",
     presigned: true,
     preprocessed: true,
