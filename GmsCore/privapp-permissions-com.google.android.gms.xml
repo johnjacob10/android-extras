@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="com.google.android.gms">
+        <permission name="com.google.android.gms.locationsharingreporter.periodic.STATUS_UPDATE"/>
         <permission name="com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE"/>
         <permission name="android.permission.ACCESS_NETWORK_STATE"/>
         <permission name="android.permission.INTERNET"/>
@@ -52,6 +53,8 @@
         <permission name="android.permission.BLUETOOTH_CONNECT"/>
         <permission name="android.permission.BLUETOOTH_SCAN"/>
         <permission name="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK"/>
+        <permission name="INTERACT_ACROSS_PROFILES"/>
+        <permission name="INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
         <permission name="com.google.android.gms.permission.AD_ID"/>
         <permission name="com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
