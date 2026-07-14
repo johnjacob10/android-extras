@@ -18,6 +18,7 @@
                 <permission name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
                 <permission name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
                 <permission name="android.permission.RECORD_AUDIO"/>
+                <permission name="com.google.android.gms.appevents.permission.SEND_APP_IMPORTANCE_UPDATES"/>
                 <permission name="android.permission.SEND_SMS"/>
                 <permission name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
                 <permission name="android.permission.RECEIVE_SMS"/>
@@ -26,6 +27,7 @@
                 <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
                 <permission name="android.permission.READ_CONTACTS"/>
                 <permission name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+                <permission name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
                 <permission name="com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
                 <permission name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
                 <permission name="com.android.vending.permission.C2D_MESSAGE"/>
@@ -142,6 +144,7 @@
                 <permission name="android.permission.GET_APP_METADATA"/>
                 <permission name="android.permission.HIDE_STATUS_BAR_NOTIFICATION"/>
                 <permission name="com.google.android.apps.play.games.lib.dekuloguploadservice.permission.UPLOAD_DEKU_LOGS"/>
+                <permission name="com.google.android.gms.dck.permission.DIGITAL_KEY_IN_USE"/>
         </privapp-permissions>
 </permissions>
 
