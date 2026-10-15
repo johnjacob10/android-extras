@@ -18,6 +18,6 @@ android_app_import {
 
     certificate: "releasekey",
     required: ["privapp-permissions-org.fdroid.fdroid.privileged.xml"],
-    apk: "org.fdroid.fdroid.privileged_2130.apk",
+    apk: "org.fdroid.fdroid.privileged_2140.apk",
 
 }
